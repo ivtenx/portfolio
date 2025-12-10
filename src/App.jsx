@@ -18,7 +18,7 @@ const App = () => {
             </div>
             <div className='relative z-10'> <Nav />
 
-                <div className='2xl:flex 2xl:justify-center 2xl:items-center'>  <Hero />                <About />
+                <div className='2xl:flex 2xl:justify-center 2xl:items-center lg:flex'>  <Hero />                <About />
 
                     <Cuet /></div>
                 <Blog />

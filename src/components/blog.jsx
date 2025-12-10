@@ -1,8 +1,8 @@
 const Blog = () => {
     return (
         <div className="">
-            <div className="text-gray-300 mt-8 flex justify-center text-2xl 2xl:mx-[48vw] font-cdi border-b-2 mx-40 ">Tales</div>
-            <div className="2xl:flex">       <div className="border  border-gray-400 mx-3 mt-9 rounded-lg backdrop-blur-lg"> <div className="flex justify-center my-1"><img src="/lap.png" className="w-20" alt="" /></div>
+            <div className="text-gray-300 mt-8 flex justify-center text-2xl lg:mx-[46vw] 2xl:mx-[48vw] font-cdi border-b-2 mx-40 ">Tales</div>
+            <div className="2xl:flex lg:flex">       <div className="border  border-gray-400 mx-3 mt-9 rounded-lg backdrop-blur-lg"> <div className="flex justify-center my-1"><img src="/lap.png" className="w-20" alt="" /></div>
                 <div className="mx-2">
 
                     <span className="text-purple-200 text-xl font-cdi">My journey as a non-CS student</span> <br />

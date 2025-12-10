@@ -1,6 +1,6 @@
 const Cuet = () => {
     return (
-        <div className='flex mx-3 2xl:h-[8vw] py-4 2xl:-py-4 text-gray-300 mt-7 justify-center items-center backdrop-blur-lg border border-gray-400 rounded-lg '>
+        <div className='flex mx-3 2xl:h-[8vw] py-4 2xl:-py-4 text-gray-300 mt-7 justify-center items-center backdrop-blur-lg border border-gray-400 rounded-lg lg:my-[18vw] '>
             <div className='flex flex-col 2xl:mx-2 2xl:gap-2'>
                 <span className="text-2xl pb-1">Bachelor in <span className="font-bold">ETE</span></span>
                 <span className='text-[11.5px] font-bold mr-2 2xl:mb-1.5'>Chittagong University of Engineering & Technology</span>

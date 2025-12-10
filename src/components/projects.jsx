@@ -3,8 +3,8 @@
 const Projects = () => {
     return (
         <div className="">
-            <div className="text-gray-300 mt-8 flex justify-center text-2xl font-cdi border-b-2 mx-40 2xl:mx-[47vw]">Projects</div>
-            <div className="2xl:flex "><div className="border border-gray-400 mx-3 mt-9 rounded-lg backdrop-blur-lg  "> <div className=" text-gray-500 my-1 mx-2 flex gap-2 2xl:py-1.5"><span>TailwindCSS</span><span>Javascript</span></div>
+            <div className="text-gray-300 mt-8 flex justify-center text-2xl font-cdi border-b-2 mx-40 2xl:mx-[47vw] lg:mx-[45vw]">Projects</div>
+            <div className="2xl:flex lg:flex"><div className="border border-gray-400 mx-3 mt-9 rounded-lg backdrop-blur-lg  "> <div className=" text-gray-500 my-1 mx-2 flex gap-2 2xl:py-1.5"><span>TailwindCSS</span><span>Javascript</span></div>
                 <div className="mx-2">
 
                     <span className="text-purple-200 text-xl font-cdi">Ani-StopWatch</span> <br />

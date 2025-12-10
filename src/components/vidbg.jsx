@@ -3,8 +3,9 @@ import React from 'react'
 const Videonaki = () => {
     return (
         <div>
-            <video className='min-h-full min-w-full fixed object-cover' autoPlay muted loop src="/bg.mp4" />
-            <div className='bg-black/60 min-h-full min-w-full absolute' />
+            <div><img src="bg.jpg" alt="" className='min-h-full min-w-full object-fit fixed' /></div>
+
+            <div className='fixed bg-black/50 w-full h-full z-0' />
         </div>
     )
 }

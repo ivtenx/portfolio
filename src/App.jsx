@@ -13,14 +13,17 @@ import Projects from './components/projects'
 const App = () => {
 
     return (
-        <div>
+        <div className=''>
             <div>            < Videonaki />
             </div>
             <div className='relative z-10'> <Nav />
 
-                <div className='2xl:flex 2xl:justify-center 2xl:items-center lg:flex'>  <Hero />                <About />
+                <div className='2xl:grid 2xl:grid-cols-3 md:grid md:grid-cols-3 '>
 
-                    <Cuet /></div>
+
+                    <div >  <Hero />  </div>              <div><About /></div>  <div ><Cuet /></div>
+                </div>
+
                 <Blog />
 
 

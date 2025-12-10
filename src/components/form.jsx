@@ -7,8 +7,8 @@ function ContactForm() {
     }
     return (
         <div>
-            <div className="text-gray-300 mt-4 flex justify-center text-2xl font-cdi border-b-2 mx-40 2xl:mx-[47vw] mb-6 ">Contact</div>
-            <div className='2xl:flex 2xl:justify-center lg:flex lg:justify-center'>  <form className=' text-gray-300 mx-3 my-4 rounded-lg 2xl:w-[38vw]  ' onSubmit={handleSubmit}>
+            <div className="text-gray-300 mt-4 flex justify-center text-2xl font-cdi border-b-2 mx-40 2xl:mx-[47vw] mb-6 md:mx-[44vw]">Contact</div>
+            <div className='2xl:flex 2xl:justify-center lg:flex lg:justify-center md:flex md:justify-center'>  <form className=' text-gray-300 mx-3 my-4 rounded-lg 2xl:w-[38vw]  ' onSubmit={handleSubmit}>
                 < label htmlFor="email" >
 
                 </label >
@@ -40,7 +40,7 @@ function ContactForm() {
                     errors={state.errors}
                 />
 
-                <div className='2xl:flex 2xl:justify-center lg:flex lg:justify-center'><button type="submit" className='bg-purple-800 px-1 border border-gray-500 mt-0.5 2xl:p-0.5 2xl:text-xl  rounded-lg hover:scale-105 duration-300 hover:text-white' disabled={state.submitting}>
+                <div className='flex justify-center'><button type="submit" className='bg-purple-800 px-1 border border-gray-500 mt-0.5 2xl:p-0.5 2xl:text-xl  rounded-lg hover:scale-105 duration-300 hover:text-white' disabled={state.submitting}>
                     SEND</button></div>
             </form ></div>
         </div>

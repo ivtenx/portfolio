@@ -16,7 +16,7 @@ const Hero = () => {
 
 
 
-            <div><img src="ivten.jpg" className="w-20" alt="" /></div>
+            <div><img src="ivten.jpg" className="w-20 rounded-full" alt="" /></div>
         </div>
     )
 }

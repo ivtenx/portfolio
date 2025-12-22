@@ -31,7 +31,7 @@ const Projects = () => {
                     <div className="mx-2">
 
                         <span className="text-purple-200 text-xl font-cdi">CUETmem Game</span> <br />
-                        <span className="text-gray-400 text-md ">This made was dedicated to my uni-Friends, who keeps by my side all over my tough times. I've also used smooth 3d animation here, don't miss out. Just match pairs and Play ON!</span><br />
+                        <span className="text-gray-400 text-md ">This made was dedicated to my uni-Friends, who keeps by my side all over my tough times. I've also used smooth 3d animation here, don't miss out. Just match pairs and Play on!</span><br />
                         <button className="text-gray-300 border font-mono px-0.5 bg-purple-800 border-gray-400 rounded-lg hover:scale-110 mt-8 mb-2.5 absolute bottom-0"><a href="https://cuetmem.netlify.app target="_blank">Watch demo</a></button>
 
 

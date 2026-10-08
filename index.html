@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>IVTENX — Network Archive</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+
+    <header class="navbar">
+
+        <a href="#home" class="logo">
+            IVTENX
+        </a>
+
+        <nav>
+            <a href="#archive">Archive</a>
+            <a href="#writings">Writings</a>
+            <a href="#about">About</a>
+        </nav>
+
+    </header>
+
+
+    <!-- HOME -->
+
+    <section class="hero" id="home">
+
+        <p class="small-title">
+            NETWORK ARCHIVE
+        </p>
+
+        <h1>
+            Build. Break.<br>
+            <span>Understand.</span>
+        </h1>
+
+        <p class="hero-text">
+            My personal collection of networking labs,
+            Packet Tracer projects and notes.
+        </p>
+
+        <a href="#archive" class="button">
+            VIEW ARCHIVE →
+        </a>
+
+    </section>
+
+
+    <!-- ARCHIVE -->
+
+    <section class="section" id="archive">
+
+        <div class="section-header">
+
+            <div>
+                <p class="small-title">
+                    01 — ARCHIVE
+                </p>
+
+                <h2>
+                    Network Files
+                </h2>
+            </div>
+
+            <p>
+                Packet Tracer labs and networking projects.
+            </p>
+
+        </div>
+
+
+        <!-- SEARCH -->
+
+        <div class="toolbar">
+
+            <input type="text" id="searchInput" placeholder="Search files...">
+
+            <div class="filters">
+
+                <button class="filter active" data-filter="all">
+                    ALL
+                </button>
+
+                <button class="filter" data-filter="routing">
+                    ROUTING
+                </button>
+
+                <button class="filter" data-filter="switching">
+                    SWITCHING
+                </button>
+
+                <button class="filter" data-filter="packet-tracer">
+                    PACKET TRACER
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <!-- FILE LIST -->
+
+        <div id="fileGrid" class="file-list"></div>
+
+    </section>
+
+
+    <!-- WRITINGS -->
+
+    <section class="section" id="writings">
+
+        <div class="section-header">
+
+            <div>
+                <p class="small-title">
+                    02 — WRITINGS
+                </p>
+
+                <h2>
+                    Notes
+                </h2>
+            </div>
+
+        </div>
+
+
+        <div id="writingGrid" class="writing-list"></div>
+
+    </section>
+
+
+    <!-- ABOUT -->
+
+    <section class="section about" id="about">
+
+        <p class="small-title">
+            03 — ABOUT
+        </p>
+
+        <h2>
+            Learning networks<br>
+            one <span>packet</span> at a time.
+        </h2>
+
+        <p class="about-text">
+            I'm an ETE student at Chittagong University
+            of Engineering & Technology, learning networking
+            through CCNA, Packet Tracer and practical labs.
+        </p>
+
+        <div class="tags">
+
+            <span>ETE @ CUET</span>
+            <span>CCNA</span>
+            <span>PACKET TRACER</span>
+            <span>NETWORKING</span>
+
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <span>IVTENX</span>
+
+        <span>
+            NETWORK ARCHIVE © 2026
+        </span>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

@@ -13,7 +13,15 @@ const files = [
         file: "files/DAY_2.pkt",
         categories: ["packet-tracer", "routing"],
         tags: ["PACKET TRACER", "ROUTING"]
-    }
+    },
+    {
+        name: "DAY_3",
+        description: "Advanced Packet Tracer networking lab.",
+        file: "files/DAY_3.pkt",
+        categories: ["packet-tracer", "switching"],
+        tags: ["PACKET TRACER", "SWITCHING"]
+    },
+
 ];
 
 const fileGrid = document.getElementById("fileGrid");

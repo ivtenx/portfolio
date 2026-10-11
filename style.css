@@ -174,6 +174,14 @@ input {
     font-size: 12px;
 }
 
+.section-intro {
+    max-width: 390px;
+    margin-top: 14px;
+    color: var(--gray);
+    font-size: 12px;
+    line-height: 1.7;
+}
+
 /* SEARCH AND FILTERS */
 
 .toolbar {
@@ -395,6 +403,63 @@ input {
     font-size: 9px;
 }
 
+/* CONTACT */
+
+.contact {
+    padding-top: 0;
+}
+
+.contact-box {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(290px, 0.8fr);
+    gap: 48px;
+    padding: clamp(28px, 5vw, 56px);
+    border: 1px solid var(--border);
+    background: linear-gradient(135deg, #15110e, #0d0d0d 55%);
+}
+
+.contact-box h2 {
+    margin-top: 14px;
+    font-size: clamp(34px, 4vw, 54px);
+    line-height: 1;
+    letter-spacing: -0.055em;
+}
+
+.contact-box p:not(.small-title) {
+    max-width: 390px;
+    margin-top: 17px;
+    color: var(--gray);
+    font-size: 13px;
+    line-height: 1.8;
+}
+
+.contact-links {
+    display: grid;
+    align-content: center;
+    gap: 9px;
+}
+
+.contact-link {
+    min-height: 58px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 18px;
+    border: 1px solid #302d29;
+    color: var(--white);
+    font-family: var(--mono);
+    font-size: 10px;
+    letter-spacing: 0.04em;
+    transition: background 0.2s ease, border-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
+}
+
+.contact-link:hover {
+    transform: translateX(4px);
+    border-color: var(--orange);
+    background: var(--orange);
+    color: var(--black);
+}
+
 /* FOOTER */
 
 footer {
@@ -557,6 +622,16 @@ footer span:first-child {
         font-size: 40px;
     }
 
+    .contact {
+        padding-top: 0;
+    }
+
+    .contact-box {
+        grid-template-columns: 1fr;
+        gap: 30px;
+        padding: 25px;
+    }
+
     footer {
         min-height: 65px;
         font-size: 8px;
@@ -641,4 +716,119 @@ footer span:first-child {
     border: 0;
     font-size: 30px;
     cursor: pointer;
+}
+
+/* ARCHIVE CARDS - a clear, scan-friendly home for projects and notes */
+.file-list {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 14px;
+    border-top: 0;
+}
+
+.file-card {
+    min-height: 260px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0;
+    border: 1px solid var(--border);
+    background: linear-gradient(145deg, #101010, #090909);
+    transition: transform 0.2s ease, border-color 0.2s ease, background 0.2s ease;
+}
+
+.file-card:hover {
+    transform: translateY(-4px);
+    border-color: var(--orange);
+    background: linear-gradient(145deg, #17120f, #0a0a0a);
+}
+
+.file-number {
+    color: var(--orange);
+    letter-spacing: 0.08em;
+}
+
+.file-name {
+    margin-top: 34px;
+    font-size: 16px;
+}
+
+.file-tags {
+    margin-top: 14px;
+}
+
+.file-tags span {
+    padding: 5px 7px;
+    border: 1px solid #302d29;
+    color: var(--gray);
+    font-size: 8px;
+}
+
+.download-button {
+    margin-top: auto;
+}
+
+.empty {
+    grid-column: 1 / -1;
+}
+
+.writing-list {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 14px;
+    border-top: 0;
+}
+
+.writing-card {
+    min-height: 270px;
+    padding: 26px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--border);
+    background: #0d0d0d;
+    transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.writing-card:hover {
+    transform: translateY(-4px);
+    border-color: #756a61;
+}
+
+.writing-title {
+    margin-top: 34px;
+}
+
+.writing-card .writing-description {
+    margin-top: 10px;
+}
+
+.view-note {
+    margin-top: auto;
+    padding: 12px 0 0;
+    color: var(--orange);
+}
+
+.view-note:hover {
+    color: var(--white);
+}
+
+@media (max-width: 900px) {
+    .file-list {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 600px) {
+    .file-list,
+    .writing-list {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .file-card,
+    .writing-card {
+        min-height: 235px;
+        padding: 22px;
+    }
 }

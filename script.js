@@ -1,21 +1,21 @@
 const files = [
     {
         name: "DAY_1",
-        description: "Basic Packet Tracer networking lab.",
+        description: "A foundation lab for device connections, addressing, and first successful pings.",
         file: "files/DAY_1.pkt",
         categories: ["packet-tracer", "switching"],
         tags: ["PACKET TRACER", "SWITCHING"]
     },
     {
         name: "DAY_2",
-        description: "Router and switch configuration practice.",
+        description: "Practice routing between networks and building a reliable switch-router setup.",
         file: "files/DAY_2.pkt",
         categories: ["packet-tracer", "routing"],
         tags: ["PACKET TRACER", "ROUTING"]
     },
     {
         name: "DAY_3",
-        description: "Advanced Packet Tracer networking lab.",
+        description: "A more advanced lab focused on testing, troubleshooting, and refining the topology.",
         file: "files/DAY_3.pkt",
         categories: ["packet-tracer", "switching"],
         tags: ["PACKET TRACER", "SWITCHING"]
@@ -110,12 +110,12 @@ function displayWritings() {
         note.className = "writing-card";
 
         note.innerHTML = `
-            <div class="file-number">${String(index + 1).padStart(2, "0")}</div>
+            <div class="file-number">NOTE ${String(index + 1).padStart(2, "0")}</div>
 
             <div>
-                <h3>${writing.title}</h3>
+                <h3 class="writing-title">${writing.title}</h3>
 
-                <p>${writing.preview}</p>
+                <p class="writing-description">${writing.preview}</p>
 
                 <div class="file-tags">
                     ${writing.tags.map(tag => `<span>${tag}</span>`).join("")}

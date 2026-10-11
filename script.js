@@ -1,21 +1,21 @@
 const files = [
     {
         name: "DAY_1",
-        description: "A foundation lab for device connections, addressing, and first successful pings.",
+        description: "My first setup: connecting devices, assigning addresses, and getting that first successful ping.",
         file: "files/DAY_1.pkt",
         categories: ["packet-tracer", "switching"],
         tags: ["PACKET TRACER", "SWITCHING"]
     },
     {
         name: "DAY_2",
-        description: "Practice routing between networks and building a reliable switch-router setup.",
+        description: "A practice lab for routing between networks and understanding what each device is doing.",
         file: "files/DAY_2.pkt",
         categories: ["packet-tracer", "routing"],
         tags: ["PACKET TRACER", "ROUTING"]
     },
     {
         name: "DAY_3",
-        description: "A more advanced lab focused on testing, troubleshooting, and refining the topology.",
+        description: "A bigger topology where I tested things, broke a few settings, and worked through the fixes.",
         file: "files/DAY_3.pkt",
         categories: ["packet-tracer", "switching"],
         tags: ["PACKET TRACER", "SWITCHING"]
@@ -24,19 +24,19 @@ const files = [
 
 const writings = [
     {
-        title: "Understanding Networks",
+        title: "What I’m starting to understand",
         preview:
-            "Networking starts with curiosity: send a packet, trace its path, break the configuration, then rebuild it.",
+            "Networking became less confusing once I stopped trying to memorise everything and started tracing what a packet does.",
         text: `
-            Networking is not only about connecting devices. It is about understanding how information travels from one place to another.
+            At first, networking felt like a long list of commands. The more I practise, the more I see it as a story about how information gets from one device to another.
 
-            Every lab begins with a small idea: connect two devices, configure an IP address, test a ping, and observe the result. As the network grows, routing, switching, VLANs, subnetting, and security become part of the picture.
+            Most of my labs begin with something small: connect two devices, set an IP address, test a ping, and then look closely at what happened. When it fails, I have a reason to check each step instead of guessing.
 
-            Packet Tracer makes it possible to learn by experimenting. A broken configuration is not a failure; it is an opportunity to trace the problem, understand the cause, and build a stronger solution.
+            Packet Tracer gives me room to experiment without fear of breaking a real network. A wrong configuration is frustrating, but it usually teaches me more than the parts that work immediately.
 
-            The goal is simple: build networks, break them safely, and understand how they work.
+            I am keeping these notes so I can look back at the small ideas that slowly turn into understanding.
         `,
-        tags: ["NETWORKING", "CCNA", "LEARNING"]
+        tags: ["Networking", "CCNA", "Learning"]
     }
 ];
 
